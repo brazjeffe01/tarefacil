@@ -73,16 +73,22 @@ div.container > div#sign-up {
 }
 
 input[type="image"]{
-    height: 10%;
-    width: 10%;
+    height: 5vh;
     background-color: #f3f3f3;
 }
 
 input[type="name"], input[type="password"] {
     background-color: #f3f3f3;
     border: 0px;
-    width: 65%;
+    width: 15vw;
     padding-left: 10px;
+}
+
+form#cadastrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form#cadastrar > div {
@@ -97,8 +103,8 @@ form#cadastrar > input {
 
 form#cadastrar > input#cadastrar {
 
-    height: 20%;
-    width: 85%;
+    height: 5vh;
+    width: 12vw;
     color: #FFF;
     background-color: #096279;
     border: 1px solid #096279;

@@ -1,0 +1,29 @@
+html {
+    background-color: #096279;
+}
+
+div.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container {
+    height: 98vh;
+    width: 95vw;
+    display: flex;
+}
+
+div.container > * {
+    width: 50%;
+    height: 100%;
+}
+
+div.infos {
+    background-color: #FF0000;
+}
+
+
+div.picture {
+    background-color: #00FF00;
+}
