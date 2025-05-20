@@ -1,5 +1,5 @@
-html {
-    background-color: #bdbdbd;
+body {
+    background-color: rgb(113, 167, 230);
 }
 
 div.main {
@@ -22,7 +22,7 @@ div.container > div#sign-in {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #096279;
+    background-color: rgb(38, 112, 196);
     height: 100%;
     width: 40%;
     border-top-left-radius: 25px;
@@ -39,7 +39,7 @@ div#sign-in > h1 {
 div#sign-up > h1 {
     font-family:'Times New Roman', Times, serif;
     font-size: 2rem;
-    color: #096279; 
+    color: rgb(38, 112, 196); 
 }
 
 div#sign-in > span {
@@ -53,7 +53,7 @@ div#sign-in > button {
     font-size: 110%;
     height: 7%;
     width: 30%;
-    background-color: #096279;
+    background-color: rgb(38, 112, 196);
     color: #FFF;
     border: 1px solid #FFF;
     border-radius: 20px;
@@ -67,19 +67,22 @@ div.container > div#sign-up {
     align-items: center;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    background-color: #d3d2d2;
+    background-color: #ebeaea;
     height: 100%;
     width: 60%;
 }
 
-input[type="image"]{
-    height: 5vh;
+img {
+    height: 3vh;
     background-color: #f3f3f3;
+    padding: 3%;
+    border: 1px solid #000;
 }
 
 input[type="name"], input[type="password"] {
+    border: 1px solid #000;
     background-color: #f3f3f3;
-    border: 0px;
+    /* border: 0px; */
     width: 15vw;
     padding-left: 10px;
 }
@@ -106,15 +109,15 @@ form#cadastrar > input#cadastrar {
     height: 5vh;
     width: 12vw;
     color: #FFF;
-    background-color: #096279;
-    border: 1px solid #096279;
+    background-color: rgb(38, 112, 196);
+    border: 1px solid rgb(38, 112, 196);
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
 }
 
 form#cadastrar > input#cadastrar:hover {
-    background-color: #0e83a0;
-    border-color: #0e83a0;
+    background-color: rgb(113, 167, 230);
+    border-color: rgb(113, 167, 230);
     transition: 0.2s;
 }
